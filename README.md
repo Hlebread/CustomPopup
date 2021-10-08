@@ -21,12 +21,12 @@ const config = {
 }
 ```
 
-`type`: success/info/warning/danger/message // *you will see default popup without it
-`title` // Just a title, in type:"message" without it you will see title "Message"
-`text` // *required or you will see default message
-`notVanish` // *default "false"; if "true", it will not disappear after timeout
-`timeout` // *timeout in millisecond, default "5000"
-`onClick` // \*you can pass a callback to handle click on popup
+- `type`: success/info/warning/danger/message // *you will see default popup without it
+- `title` // Just a title, in type:"message" without it you will see title "Message"
+- `text` // *required or you will see default message
+- `notVanish` // *default "false"; if "true", it will not disappear after timeout
+- `timeout` // *timeout in millisecond, default "5000"
+- `onClick` // \*you can pass a callback to handle click on popup
 
 - call `CustomPopup.show(<config>)` in your code with made config to show a popup
 - enjoy :)
