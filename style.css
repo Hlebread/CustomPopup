@@ -1,0 +1,275 @@
+.ej28jg94bIEf794bed6zxr {
+  --text-color: #455057;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  min-height: 60px;
+  background: var(--bg-color);
+  border: 2px solid var(--border-color);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: var(--text-color);
+  letter-spacing: 0.05em;
+  overflow: hidden;
+  animation: fadeIn 0.5s linear 1;
+}
+.ej28jg94bIEf794bed6zxr,
+.ej28jg94bIEf794bed6zxr *,
+.ej28jg94bIEf794bed6zxr *::after,
+.ej28jg94bIEf794bed6zxr *::before {
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+@keyframes fadeIn {
+  0% {
+    width: 0px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    width: 300px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    width: 0px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    width: 300px;
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    width: 0px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    width: 300px;
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    width: 300px;
+    opacity: 1;
+  }
+  100% {
+    width: 0px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    width: 300px;
+    opacity: 1;
+  }
+  100% {
+    width: 0px;
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeOut {
+  0% {
+    width: 300px;
+    opacity: 1;
+  }
+  100% {
+    width: 0px;
+    opacity: 0;
+  }
+}
+.ej28jg94bIEf794bed6zxr.default {
+  --bg-color: #e6e6e6;
+  --border-color: #d3d3d3;
+  --main-color: #7c7c7c;
+}
+.ej28jg94bIEf794bed6zxr.default .icon-container {
+  display: flex;
+}
+.ej28jg94bIEf794bed6zxr.message {
+  --bg-color: #fffaf6;
+  --border-color: #deefed;
+  --main-color: #93a7a6;
+}
+.ej28jg94bIEf794bed6zxr.message .icon-container {
+  display: flex;
+  overflow: hidden;
+}
+.ej28jg94bIEf794bed6zxr.message .icon-container img {
+  height: 100%;
+}
+.ej28jg94bIEf794bed6zxr.success {
+  --bg-color: #eaf7ee;
+  --border-color: #bee5c8;
+  --main-color: #3fbd61;
+}
+.ej28jg94bIEf794bed6zxr.success .icon-container {
+  display: flex;
+}
+.ej28jg94bIEf794bed6zxr.info {
+  --bg-color: #e6effa;
+  --border-color: #c8ddf5;
+  --main-color: #006ce5;
+}
+.ej28jg94bIEf794bed6zxr.info .icon-container {
+  display: flex;
+}
+.ej28jg94bIEf794bed6zxr.warning {
+  --bg-color: #fef7ea;
+  --border-color: #f8dfb5;
+  --main-color: #ee9500;
+}
+.ej28jg94bIEf794bed6zxr.warning .icon-container {
+  display: block;
+}
+.ej28jg94bIEf794bed6zxr.danger {
+  --bg-color: #fcede9;
+  --border-color: #f3c7bf;
+  --main-color: #ea4e2c;
+}
+.ej28jg94bIEf794bed6zxr.danger .icon-container {
+  display: block;
+}
+.ej28jg94bIEf794bed6zxr.default .icon-container,
+.ej28jg94bIEf794bed6zxr.default .icon-container, .ej28jg94bIEf794bed6zxr.success .icon-container,
+.ej28jg94bIEf794bed6zxr.success .icon-container, .ej28jg94bIEf794bed6zxr.info .icon-container,
+.ej28jg94bIEf794bed6zxr.info .icon-container {
+  justify-content: center;
+  align-items: center;
+}
+.ej28jg94bIEf794bed6zxr.default .icon-container .icon-background,
+.ej28jg94bIEf794bed6zxr.default .icon-container .icon-background, .ej28jg94bIEf794bed6zxr.success .icon-container .icon-background,
+.ej28jg94bIEf794bed6zxr.success .icon-container .icon-background, .ej28jg94bIEf794bed6zxr.info .icon-container .icon-background,
+.ej28jg94bIEf794bed6zxr.info .icon-container .icon-background {
+  background: #fff;
+  border-radius: 50%;
+  width: 60%;
+  height: 60%;
+}
+.ej28jg94bIEf794bed6zxr:hover {
+  z-index: 10000;
+  border-color: var(--main-color);
+  transform: scale(1.03);
+}
+.ej28jg94bIEf794bed6zxr:hover .text,
+.ej28jg94bIEf794bed6zxr:hover .text.withTitle {
+  -webkit-line-clamp: 9;
+}
+.ej28jg94bIEf794bed6zxr:hover .text.withTitle .title {
+  margin-bottom: 10px;
+  -webkit-line-clamp: 3;
+}
+.ej28jg94bIEf794bed6zxr .icon-container {
+  flex: 0 0 40px;
+  height: 40px;
+  background: var(--main-color);
+  border-radius: 15px;
+  align-self: flex-start;
+  position: relative;
+  display: none;
+}
+.ej28jg94bIEf794bed6zxr .icon-container .icon-background {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ej28jg94bIEf794bed6zxr .icon-container .icon-background svg {
+  width: 30px;
+  fill: #fff;
+}
+.ej28jg94bIEf794bed6zxr .icon-container .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: var(--main-color);
+}
+.ej28jg94bIEf794bed6zxr .text {
+  margin: 0 20px;
+  flex: 1 1 1px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ej28jg94bIEf794bed6zxr .text.withTitle {
+  -webkit-line-clamp: 1;
+}
+.ej28jg94bIEf794bed6zxr .text .title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: var(--main-color);
+}
+.ej28jg94bIEf794bed6zxr .close {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+.ej28jg94bIEf794bed6zxr .close::before, .ej28jg94bIEf794bed6zxr .close::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 2px;
+  background: #69737c;
+  position: absolute;
+  transform: rotate(45deg);
+  border-radius: 1px;
+}
+.ej28jg94bIEf794bed6zxr .close::before {
+  transform: rotate(-45deg);
+}
+.ej28jg94bIEf794bed6zxr .close:hover {
+  background: #fff;
+}
+.ej28jg94bIEf794bed6zxr .close:hover::before, .ej28jg94bIEf794bed6zxr .close:hover::after {
+  background: #3c444e;
+}
+.ej28jg94bIEf794bed6zxr.beforeClose .text {
+  -webkit-line-clamp: 2;
+}
+.ej28jg94bIEf794bed6zxr.beforeClose .text.withTitle, .ej28jg94bIEf794bed6zxr.beforeClose .text.withTitle .title {
+  -webkit-line-clamp: 1;
+}
+.ej28jg94bIEf794bed6zxr.beforeClose .text.withTitle .title {
+  margin-bottom: 0;
+}
+.ej28jg94bIEf794bed6zxr.beforeClose:hover {
+  transform: scale(1);
+}
+
+/*# sourceMappingURL=style.css.map */
