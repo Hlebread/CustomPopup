@@ -46,12 +46,13 @@ const CustomPopup = (function () {
 
 	function Model() {
 		this.init = (config) => ({
-			type: config?.type ? config.type.toLowerCase() : "default",
-			title: config?.title ?? (config.type === "message" ? "Message" : ""),
-			text: config?.text ?? "Your have a new popup!",
-			timeout: config?.timeout ?? 5000,
-			notVanish: config?.notVanish ?? false,
-			img: config?.img ?? "",
+			type: config.type ? config.type.toLowerCase() : "default",
+			title: config.title || (config.type === "message" ? "Message" : ""),
+			text: config.text || "Your have a new popup!",
+			timeout: config.timeout || 5000,
+			notVanish: config?.notVanish || false,
+			img: config.img || "",
+			onClick: config.onClick,
 		});
 	}
 
